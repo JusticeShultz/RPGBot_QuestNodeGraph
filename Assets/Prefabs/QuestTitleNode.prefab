@@ -94,6 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18fe05f5f3038d346b4b6d66defdd276, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hoveredTarget: {fileID: 0}
   hovered: 0
 --- !u!65 &6156029188493102756
 BoxCollider:
@@ -464,6 +465,7 @@ GameObject:
   - component: {fileID: 4921179996746192545}
   - component: {fileID: 4921179996746192544}
   - component: {fileID: 8045718023586169761}
+  - component: {fileID: 4044231667540988756}
   m_Layer: 0
   m_Name: QuestTitleNode
   m_TagString: Untagged
@@ -576,6 +578,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputField: {fileID: 4921179997449172494}
   outputNode: {fileID: 8466122082821241016}
+--- !u!114 &4044231667540988756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4921179996746192573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f65df5d0c07cb5247b267cf927fc8f75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iD: 0
 --- !u!1 &4921179997133468034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1485,8 +1500,8 @@ LineRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 753746673
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}

@@ -202,6 +202,7 @@
     <Compile Include="Assets\Scripts\Connector.cs" />
     <Compile Include="Assets\Scripts\DeleteGameobject.cs" />
     <Compile Include="Assets\Scripts\Draggable.cs" />
+    <Compile Include="Assets\Scripts\ExitGame.cs" />
     <Compile Include="Assets\Scripts\ImageButton.cs" />
     <Compile Include="Assets\Scripts\Node.cs" />
     <Compile Include="Assets\Scripts\PanCamera.cs" />
@@ -210,6 +211,7 @@
     <Compile Include="Assets\Scripts\Saving\GemNode.cs" />
     <Compile Include="Assets\Scripts\Saving\GoldNode.cs" />
     <Compile Include="Assets\Scripts\Saving\HealDamageNode.cs" />
+    <Compile Include="Assets\Scripts\Saving\ID.cs" />
     <Compile Include="Assets\Scripts\Saving\IfElseDeity.cs" />
     <Compile Include="Assets\Scripts\Saving\LootDropNode.cs" />
     <Compile Include="Assets\Scripts\Saving\LoreDropNode.cs" />

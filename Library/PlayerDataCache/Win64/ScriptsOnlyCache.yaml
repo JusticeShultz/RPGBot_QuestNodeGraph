@@ -1,0 +1,1578 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - BreakPrefabConnection
+    - CenterObject
+    - DeleteGameobject
+    - DialogueNode
+    - Draggable
+    - DuloGames.UI.ColorScheme
+    - DuloGames.UI.ColorSchemeElement
+    - DuloGames.UI.ColorSchemeManager
+    - DuloGames.UI.UIAlwaysOnTop
+    - DuloGames.UI.UIBlackOverlay
+    - DuloGames.UI.UIBlackOverlayManager
+    - DuloGames.UI.UIHighlightTransition
+    - DuloGames.UI.UIItemDatabase
+    - DuloGames.UI.UILoadingOverlay
+    - DuloGames.UI.UILoadingOverlayManager
+    - DuloGames.UI.UIModalBox
+    - DuloGames.UI.UIModalBoxManager
+    - DuloGames.UI.UIProgressBar
+    - DuloGames.UI.UISpellDatabase
+    - DuloGames.UI.UITalentDatabase
+    - DuloGames.UI.UITooltip
+    - DuloGames.UI.UITooltipManager
+    - DuloGames.UI.UIWindow
+    - EveryDeityNode
+    - ExitGame
+    - GemNode
+    - GoldNode
+    - HealDamageNode
+    - ID
+    - IfElseDeity
+    - ImageButton
+    - LootDropNode
+    - LoreDropNode
+    - MultilootNode
+    - Node
+    - PanCamera
+    - QuestTitle
+    - SaveStack
+    - SpawnObject
+    - SpriteButton
+    - ToggleObject
+    - XPNode
+    Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.TileDragAndDropManager
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.AutoExposure
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
+    - UnityEngine.Rendering.PostProcessing.PostProcessLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.PhysicsRaycaster
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.Dropdown
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9732}
+    - Class: 114
+      Script: {instanceID: 9758}
+    - Class: 114
+      Script: {instanceID: 9842}
+    - Class: 114
+      Script: {instanceID: 9848}
+    - Class: 114
+      Script: {instanceID: 9854}
+    - Class: 114
+      Script: {instanceID: 9866}
+    - Class: 114
+      Script: {instanceID: 9884}
+    - Class: 114
+      Script: {instanceID: 9902}
+    - Class: 114
+      Script: {instanceID: 9938}
+    - Class: 114
+      Script: {instanceID: 9954}
+    - Class: 114
+      Script: {instanceID: 9994}
+    - Class: 114
+      Script: {instanceID: 9996}
+    - Class: 114
+      Script: {instanceID: 10028}
+    - Class: 114
+      Script: {instanceID: 10038}
+    - Class: 114
+      Script: {instanceID: 10180}
+    - Class: 114
+      Script: {instanceID: 10194}
+    - Class: 114
+      Script: {instanceID: 10206}
+    - Class: 114
+      Script: {instanceID: 10208}
+    - Class: 114
+      Script: {instanceID: 10228}
+    - Class: 114
+      Script: {instanceID: 10430}
+    - Class: 114
+      Script: {instanceID: 10464}
+    - Class: 114
+      Script: {instanceID: 10518}
+    - Class: 114
+      Script: {instanceID: 10520}
+    - Class: 114
+      Script: {instanceID: 10568}
+    - Class: 114
+      Script: {instanceID: 10628}
+    - Class: 114
+      Script: {instanceID: 10716}
+    - Class: 114
+      Script: {instanceID: 10724}
+    - Class: 114
+      Script: {instanceID: 10830}
+    - Class: 114
+      Script: {instanceID: 10832}
+    - Class: 114
+      Script: {instanceID: 10942}
+    - Class: 114
+      Script: {instanceID: 10960}
+    - Class: 114
+      Script: {instanceID: 10992}
+    - Class: 114
+      Script: {instanceID: 11106}
+    - Class: 114
+      Script: {instanceID: 11200}
+    - Class: 114
+      Script: {instanceID: 11204}
+    - Class: 114
+      Script: {instanceID: 11214}
+    - Class: 114
+      Script: {instanceID: 11216}
+    - Class: 114
+      Script: {instanceID: 11336}
+    - Class: 114
+      Script: {instanceID: 11338}
+    - Class: 114
+      Script: {instanceID: 11374}
+    - Class: 114
+      Script: {instanceID: 11386}
+    - Class: 114
+      Script: {instanceID: 11438}
+    - Class: 114
+      Script: {instanceID: 11484}
+    - Class: 114
+      Script: {instanceID: 11506}
+    - Class: 114
+      Script: {instanceID: 11658}
+    - Class: 114
+      Script: {instanceID: 11716}
+    - Class: 114
+      Script: {instanceID: 11754}
+    - Class: 114
+      Script: {instanceID: 11764}
+    - Class: 114
+      Script: {instanceID: 11776}
+    - Class: 114
+      Script: {instanceID: 11786}
+    - Class: 114
+      Script: {instanceID: 11790}
+    - Class: 114
+      Script: {instanceID: 11888}
+    - Class: 114
+      Script: {instanceID: 11920}
+    - Class: 114
+      Script: {instanceID: 11928}
+    - Class: 114
+      Script: {instanceID: 12000}
+    - Class: 114
+      Script: {instanceID: 12064}
+    - Class: 114
+      Script: {instanceID: 12072}
+    - Class: 114
+      Script: {instanceID: 12126}
+    - Class: 114
+      Script: {instanceID: 12140}
+    - Class: 114
+      Script: {instanceID: 12142}
+    - Class: 114
+      Script: {instanceID: 12146}
+    - Class: 114
+      Script: {instanceID: 12182}
+    - Class: 114
+      Script: {instanceID: 12212}
+    - Class: 114
+      Script: {instanceID: 12222}
+    - Class: 114
+      Script: {instanceID: 12228}
+    - Class: 114
+      Script: {instanceID: 12250}
+    - Class: 114
+      Script: {instanceID: 12252}
+    - Class: 114
+      Script: {instanceID: 67968}
+    - Class: 114
+      Script: {instanceID: 105072}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: a1f19ad47d3094e235f21b74dfc423a8
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 353bf9198d3d60be854cb8e14f2e1981
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UICastBar
+  - hash:
+      serializedVersion: 2
+      Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  - hash:
+      serializedVersion: 2
+      Hash: b13de7a0a457cb8e026d4237dc1b5797
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: 3cfb41abe122cff54f4872b8a53f52a7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Connector
+  - hash:
+      serializedVersion: 2
+      Hash: 3c08375166df118bd1801438fc36b92f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 70a8a0bf31c3632e58b6ac666cc0ed4e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Demo_CharacterSelectList_Character
+  - hash:
+      serializedVersion: 2
+      Hash: 6ccc13c33557e4c42a77c278819f2be0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UISceneOpen
+  - hash:
+      serializedVersion: 2
+      Hash: 78317677ba7c10dd7f6efe78d74081f2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIToggle_OnOff
+  - hash:
+      serializedVersion: 2
+      Hash: c69445986041749365bce067ec8ec4cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UISpellSlot
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 626925ef558787b2d85c809198164d19
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIBlackOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: 3e0db73de544a86dc3144c8f363562d4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UILoadingOverlayManager
+  - hash:
+      serializedVersion: 2
+      Hash: 668accf336c0f918bf4db30d0af9cc0f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuestTitle
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: NicerOutline
+  - hash:
+      serializedVersion: 2
+      Hash: f9830545ac7dd88f4176f6864fdafdbb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIBlackOverlayManager
+  - hash:
+      serializedVersion: 2
+      Hash: 217d4c2e235116d6890f0968bf463683
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Gradient
+  - hash:
+      serializedVersion: 2
+      Hash: 6cb6e462406c4dafd2b330449273ab65
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UITooltipManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4664fa17523f7c53eafb9f318e2f09bf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Test_UISlotBase_Assign
+  - hash:
+      serializedVersion: 2
+      Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: af93f9c42e90877a9ba31e37adfd900c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: 102d743e9fde77ce21e749cf5389103f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6fac55b4a2f918b67c0c6f0f60a51185
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Test_FadeInOut
+  - hash:
+      serializedVersion: 2
+      Hash: 779887879ffe79a8035308e6664181ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIWindow
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 4c7c02093fe947471f98dcca8b4947b3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UISlotCooldown
+  - hash:
+      serializedVersion: 2
+      Hash: 72712369a7c681ad84fc255a5ec0b333
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 499fd23433e68e265d153aa6b95d0047
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 8d9b092400ca9eb160e921248d2081b4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ImageButton
+  - hash:
+      serializedVersion: 2
+      Hash: 8e0313c6f5e2ce35991fec2d64f8eaab
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: f542c1afca5bb4022f91fdda19b8d622
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: af970ed9f3c53fb93aa9c84439f43328
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Demo_CharacterSelectMgr
+  - hash:
+      serializedVersion: 2
+      Hash: 0cc584363e6d02c7b3153ca9365919f7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIRectangularRaycastFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 234235b9fb07320d11497e08a726cc56
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: b5a493748d542cb9d51f112fb1184e1b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIScrollRectExpander
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 59a876f22812189514ad501e5e419e37
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UISwitchSelect
+  - hash:
+      serializedVersion: 2
+      Hash: 63d7b9b64a11859f416d72ba9a3c3fec
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: d05343f31eb1e5605e7d8100f1df250b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UITooltipShow
+  - hash:
+      serializedVersion: 2
+      Hash: 0b3c9795704b528ea290ed58b9f6af8d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIInputEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: e82c0521cdfe8cb6a168ef7208a98d4a
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 8dbbd95b1819e778f8f5efa1bb784b4d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIWindowManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4e9333594897a1fb8b136ad2eae996c7
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: ccaef0ef30ecc33231e149a807d0fe7b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Demo_XPTooltip
+  - hash:
+      serializedVersion: 2
+      Hash: 25c391c825ebcd0d3d9622edd606cb84
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIDrawVertices
+  - hash:
+      serializedVersion: 2
+      Hash: 7df6d87c83d5b18e521e74931111eacb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIStatsAdd
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0f1e688c7cdc3f8d675e7149daf8a335
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UISliderExtended
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: f7f52c6b8a2eef181a3758b8de9f22f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Test_CastBar
+  - hash:
+      serializedVersion: 2
+      Hash: ab90193aff166ecb498f764176bd0062
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Test_Fill
+  - hash:
+      serializedVersion: 2
+      Hash: 6c6d8880248530f0514af29220bea187
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MultilootNode
+  - hash:
+      serializedVersion: 2
+      Hash: 18da49f7cd130b26f9105431bd66d21d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIHighlightTransition
+  - hash:
+      serializedVersion: 2
+      Hash: 303ad70ce203ad874efe2965d0fbcff9
+    assemblyName: Unity.Analytics.Tracker.dll
+    namespaceName: UnityEngine.Analytics
+    className: AnalyticsEventTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 7fb9de8dcf73854b6b328eca1f7a6e6d
+    assemblyName: Unity.Analytics.Tracker.dll
+    namespaceName: UnityEngine.Analytics
+    className: AnalyticsTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 7e6ed836cbaa230e56d6a2bbae1b9bb5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessEffectSettings
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b8a5e8091ab0b8861d2add371082c5e0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Demo_CharacterSelectChar
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 4d775110ec93bf118b6d0a44dc977310
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIModalBoxManager
+  - hash:
+      serializedVersion: 2
+      Hash: ffb7e72b6a5d85dff212148b443bfbe8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UISelectField_Option
+  - hash:
+      serializedVersion: 2
+      Hash: e60a48886658c0de9b5c01f63be70e20
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UITextSetValue
+  - hash:
+      serializedVersion: 2
+      Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: e5f89524de2d0f9be0279f1d141e5d39
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DialogueNode
+  - hash:
+      serializedVersion: 2
+      Hash: 170bb57ee03323da0d73cd0f5114f018
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Draggable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Demo_CharacterCreateMgr
+  - hash:
+      serializedVersion: 2
+      Hash: ef91dd1f78c274aca04cd95d3ba1404e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UILoadScene
+  - hash:
+      serializedVersion: 2
+      Hash: b2890e2f4f5583a6ae48253624c6bfcb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Test_UISpellSlot_AssignAll
+  - hash:
+      serializedVersion: 2
+      Hash: 6d3aa0e62fc20bdeb726865f18c84bef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIDragObject
+  - hash:
+      serializedVersion: 2
+      Hash: b3ab2106268377ffe25dd18ac23dca28
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Asset
+  - hash:
+      serializedVersion: 2
+      Hash: 77a1094ae6e493da86cdac179acb4b60
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UISlotBase
+  - hash:
+      serializedVersion: 2
+      Hash: c975fd3b17eff66435d59b8a126cbfda
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIToggleWindowAndTab
+  - hash:
+      serializedVersion: 2
+      Hash: ca94102a06cace0846caa10a883c1025
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoreDropNode
+  - hash:
+      serializedVersion: 2
+      Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: b5ad3eafc85b336aa910dba2e7687591
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIGlobeFillInverter
+  - hash:
+      serializedVersion: 2
+      Hash: 75cc24a269fbe5ceeddcdfc0ccf39abe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Test_UISpellSlot_Assign
+  - hash:
+      serializedVersion: 2
+      Hash: f79e7a791cfbc3be4c8d721981787d05
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIStepBar
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 227fcfbfe007c6f48db10b66e4bea055
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIPagination
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Analytics.Editor.dll
+    namespaceName: UnityEditor.Analytics
+    className: AnalyticsEventTrackerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: db4524269bcc835747541e1997fccd89
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Demo_Chat
+  - hash:
+      serializedVersion: 2
+      Hash: d6fc8d3165070298511ec776ea575626
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessResources
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: f332331876dc936438379dc515387010
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIEffectTransition
+  - hash:
+      serializedVersion: 2
+      Hash: dd466204e9423479464844625bcf7016
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Node
+  - hash:
+      serializedVersion: 2
+      Hash: 9ae2679fff95df007353f22ed33878d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UISelectField
+  - hash:
+      serializedVersion: 2
+      Hash: 4a881807cbad27028a05ba650086617d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIInputCaretOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 7550122697373aa5465804fffd11632b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: IfElseDeity
+  - hash:
+      serializedVersion: 2
+      Hash: a53651ee3996fbba20dfe0fce02f0b23
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AutoExposure
+  - hash:
+      serializedVersion: 2
+      Hash: 6fac55b4a2f918b67c0c6f0f60a51185
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Test_CompassTester
+  - hash:
+      serializedVersion: 2
+      Hash: 384296b8da3b2d5f15fd97d8f044ebc0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIBulletBar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 5517b6828f56ff5d0d703c9e64992260
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIScene
+  - hash:
+      serializedVersion: 2
+      Hash: 50c443b12ccc0b475183318b5088bcc5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 97edc7d96e049036634a9e17724066ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIPlayAudio
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 540e0bedc901dc3330939f4f42a86c5d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UISelectField_List
+  - hash:
+      serializedVersion: 2
+      Hash: 3fa7e8ea368fd93eace19f57e8656228
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIItemSlot_SetColorFromQuality
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: feb9a5a121d15fa3654d4e50a5233045
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 524d7a7a9d82657ff414de3fd171559a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UITalentSlot
+  - hash:
+      serializedVersion: 2
+      Hash: ec9a84f115d9d39fca4f464b4d662b04
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIPressTransition
+  - hash:
+      serializedVersion: 2
+      Hash: 312b37c0959015fc66734a1c921f0712
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIModalBox
+  - hash:
+      serializedVersion: 2
+      Hash: 3ae082075364776e271e815cfba97d5d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: ColorScheme
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 8c63be8d902b24d9fddcc305db64bc95
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SaveStack
+  - hash:
+      serializedVersion: 2
+      Hash: 813472d7e75cfcf337e9c3186325d3ef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Demo_CharacterSelectList
+  - hash:
+      serializedVersion: 2
+      Hash: 9d2ed55d89473071a22dd2ebdc6d3e77
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Demo_AddChatMessage
+  - hash:
+      serializedVersion: 2
+      Hash: 912b6051beb26c82db0d1cbcb5937c09
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIAudioSource
+  - hash:
+      serializedVersion: 2
+      Hash: 8d5dde97d9f600173f91613eac681aba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UISelectField_Transition
+  - hash:
+      serializedVersion: 2
+      Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CenterObject
+  - hash:
+      serializedVersion: 2
+      Hash: c9a8b80298a116835b51ba1cf9284367
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: e1c35cdce946e9da77fe80a39c261608
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UICanvasAspectResize
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 35a9693c388776aaf487636491a20f11
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 88cea27f2e5ddc34b818c79f3cd26c61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIAlwaysOnTop
+  - hash:
+      serializedVersion: 2
+      Hash: e1300922cc039f41ab46a47f4cb05898
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 3437f9f09cba8c85a9c443d22e0c6cfc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: XPNode
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8759bcc26c1527d9c06ad6cb5ebc23e3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GemNode
+  - hash:
+      serializedVersion: 2
+      Hash: 4e3e779c89506f901558d6dff56fa875
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UITab
+  - hash:
+      serializedVersion: 2
+      Hash: 9a0502729f9a3f233510b3ede6ac68c8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UITalentDatabase
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UISceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: df87050625a44ee681c4a84df449ea74
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UICloseAndShowWindow
+  - hash:
+      serializedVersion: 2
+      Hash: be71399517eac914d53d4b8d12d03166
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Test_UITalentSlot_Assign
+  - hash:
+      serializedVersion: 2
+      Hash: 255fa4d941a3d63325836d454d46fe14
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIItemSlot
+  - hash:
+      serializedVersion: 2
+      Hash: c913c1a650d9fa5fb48d6e06dcf86e99
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIFlippable
+  - hash:
+      serializedVersion: 2
+      Hash: 3b760e6526e13f7504f59e210145899a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 2fc7506b7112460666a2b59af15c174c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UICircularRaycastFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 0b43c84fe14b4e0f4407304616dfc00d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UISpellDatabase
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: Unity.Analytics.DataPrivacy.dll
+    namespaceName: UnityEngine.Analytics
+    className: DataPrivacyButton
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ed84e3ffcc03f41e51e666cfb53a9747
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Test_UIItemSlot_Assign
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: db255d990d8be1decaaced329c38b273
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UICanvasAnchorToCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 218048bd93e908746781901d78cf0f9b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PanCamera
+  - hash:
+      serializedVersion: 2
+      Hash: dee07412447801eb5d0f7621133a3fca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Test_SelectAddOption
+  - hash:
+      serializedVersion: 2
+      Hash: 8d249c8197d150b9941d24421dc88610
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UITooltip
+  - hash:
+      serializedVersion: 2
+      Hash: 091ecdd49cb103b0b29dae045d25eb00
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpriteButton
+  - hash:
+      serializedVersion: 2
+      Hash: 8759bcc26c1527d9c06ad6cb5ebc23e3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GoldNode
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DeleteGameobject
+  - hash:
+      serializedVersion: 2
+      Hash: d7d7458edaacb715a71eb970602458e1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Test_UIBulletBar
+  - hash:
+      serializedVersion: 2
+      Hash: 1d0bb69a7ac9b60f8594719e6afd8451
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIModalBoxCreate
+  - hash:
+      serializedVersion: 2
+      Hash: 7f6f2e971839e91810d86f581babbe03
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Test_UIProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIIgnoreRaycast
+  - hash:
+      serializedVersion: 2
+      Hash: e54b5e7d3dc3a8a449793bcb84a2d663
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: ColorSchemeElement
+  - hash:
+      serializedVersion: 2
+      Hash: 486bb89a3b37db1830b46062b7dd3778
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Test_UIEquipSlot_Assign
+  - hash:
+      serializedVersion: 2
+      Hash: 02147077186441d097511515e118c74e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: LetterSpacing
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3437f9f09cba8c85a9c443d22e0c6cfc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HealDamageNode
+  - hash:
+      serializedVersion: 2
+      Hash: f0f1d942fab0513c8789dd6fa24fd266
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIWorldCanvasScaleByCamera
+  - hash:
+      serializedVersion: 2
+      Hash: c2c0f23f33764009efc87df7a8475188
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UILoadingOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: 02df36486de517a28f1b518fe172b3e6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Demo_Quit
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 6fe592595dfedc69e7aca0924b4064e3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LootDropNode
+  - hash:
+      serializedVersion: 2
+      Hash: d5630f96bd5a6a6eed7e1754c3fb8703
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
+  - hash:
+      serializedVersion: 2
+      Hash: d0987ce3e9092dbe0fa30d73f333fffa
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Grain
+  - hash:
+      serializedVersion: 2
+      Hash: df434544c9f7b33d1cc7e635b180d279
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 472b9133f0ac04514d7b38539f63308f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Demo_QuestTrackerCollapse
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: ac6acd886c54c48c599ab5fed5781ea7
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: e1c35cdce946e9da77fe80a39c261608
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Demo_LookAtCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 9cc3d90f23644fa0e02ad0cedce69ae6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: b2890e2f4f5583a6ae48253624c6bfcb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Test_UIItemSlot_AssignAll
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: eb615610199af9aa4491fecc60354822
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EveryDeityNode
+  - hash:
+      serializedVersion: 2
+      Hash: ea82cb383d9da5f2eeb14c663ac28cac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: ColorSchemeManager
+  - hash:
+      serializedVersion: 2
+      Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 8649814970b42d345b89944b862453cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 3747370186c43458e03ab63356a353b1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIItemDatabase
+  - hash:
+      serializedVersion: 2
+      Hash: 024f6b887f2458ddc94997447e99b98d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Demo_AddChatTestMessages
+  - hash:
+      serializedVersion: 2
+      Hash: 0aac73c2ce5afa39465bbda14c79de13
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIEquipSlot
+  - hash:
+      serializedVersion: 2
+      Hash: 20eeaeae829475b5e354d1f626c51a2b
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 2aeeec1b1a144c469cd2d37776bc2315
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BreakPrefabConnection
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: aa88ae22474df55295327e4ee99e5a24
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: d1641f57d2399bb22e4a09b4af434785
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ToggleObject
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 7ac1de62aed93b62dbd27363fce0231d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UISliderDisplayValue
+  - hash:
+      serializedVersion: 2
+      Hash: 7072231382eb3c4871b3dd75ad0227e1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: b84662940d984916c176baa340a25691
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 34f8f0fc8a6c5349326280b6e5e6793d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UISelectField_OptionOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: 6a9ace8f87cf53c943d773d6c5620dfc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIEquipReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 48864a32eb7f432be77cb08c8897dd81
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: UIMaskRaycastFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 75abb8a5d5ca67126c0b0d61c03b0f33
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DuloGames.UI
+    className: Demo_CastManager
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 37ecdc06bdfe169d43a9a54354a347d0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ID
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExitGame
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  playerPath: C:/Users/s189081/Desktop/AsteriaNodeGrapher/Asteria Node Editor.exe

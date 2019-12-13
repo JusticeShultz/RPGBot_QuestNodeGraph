@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Lines
+    uniqueID: 753746673
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

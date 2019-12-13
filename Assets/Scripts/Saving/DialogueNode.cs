@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class DialogueNode : MonoBehaviour
 {
+    public ulong id = 0;
+
     public Node inputNode;
     public Node outputLootNode;
     public Node outputNode1;

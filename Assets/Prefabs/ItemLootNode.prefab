@@ -3519,6 +3519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18fe05f5f3038d346b4b6d66defdd276, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hoveredTarget: {fileID: 0}
   hovered: 0
 --- !u!65 &4143422584164258554
 BoxCollider:
@@ -3905,8 +3906,8 @@ LineRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 753746673
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
@@ -4207,6 +4208,7 @@ GameObject:
   - component: {fileID: 5523793631543925353}
   - component: {fileID: 5523793631543925352}
   - component: {fileID: 8620606566098906065}
+  - component: {fileID: 466834504547389803}
   m_Layer: 0
   m_Name: ItemLootNode
   m_TagString: Untagged
@@ -4322,6 +4324,19 @@ MonoBehaviour:
   type: {fileID: 210896198772248651}
   rarityMax: {fileID: 995886355}
   rarityMin: {fileID: 2016384743}
+--- !u!114 &466834504547389803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5523793631543925365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f65df5d0c07cb5247b267cf927fc8f75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iD: 0
 --- !u!1 &5523793632228343114
 GameObject:
   m_ObjectHideFlags: 0

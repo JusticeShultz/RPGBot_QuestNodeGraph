@@ -460,6 +460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18fe05f5f3038d346b4b6d66defdd276, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hoveredTarget: {fileID: 0}
   hovered: 0
 --- !u!65 &8048232502238895651
 BoxCollider:
@@ -796,8 +797,8 @@ LineRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 753746673
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
@@ -1041,8 +1042,8 @@ LineRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 753746673
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
@@ -1286,8 +1287,8 @@ LineRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 753746673
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
@@ -1739,8 +1740,8 @@ LineRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 753746673
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
@@ -2042,6 +2043,7 @@ GameObject:
   - component: {fileID: 9040343215623677461}
   - component: {fileID: 9040343215623677460}
   - component: {fileID: 3102456461681778049}
+  - component: {fileID: -8928496318091647322}
   m_Layer: 0
   m_Name: LootNode
   m_TagString: Untagged
@@ -2161,6 +2163,19 @@ MonoBehaviour:
   outputNode2: {fileID: 5495515582307825878}
   outputNode3: {fileID: 5495515582018537788}
   inputField: {fileID: 797431045}
+--- !u!114 &-8928496318091647322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9040343215623677449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f65df5d0c07cb5247b267cf927fc8f75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iD: 0
 --- !u!1 &9040343215722137272
 GameObject:
   m_ObjectHideFlags: 0

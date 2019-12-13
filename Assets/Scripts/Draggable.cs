@@ -6,8 +6,11 @@ using UnityEngine.EventSystems;
 public class Draggable : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public static bool isMoving = false;
+
+    public GameObject hoveredTarget;
     public bool hovered = false;
 
+    private bool dragging = false;
     private Vector3 offset;
 
     void Awake()
@@ -24,16 +27,19 @@ public class Draggable : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (isMoving) return;
+        if (hoveredTarget != null) return;
 
+        hoveredTarget = gameObject;
         hovered = true;
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        if (isMoving) return;
-
         hovered = false;
+
+        if (dragging) return;
+
+        hoveredTarget = null;
     }
 
     private void Start()
@@ -43,24 +49,34 @@ public class Draggable : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
     void Update()
     {
-        if (hovered && Input.GetMouseButtonDown(0) && !Input.GetKey(KeyCode.LeftControl))
-            offset = transform.root.transform.position - new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 0);
-
-        if (Input.GetMouseButton(0) && hovered && !Input.GetKey(KeyCode.LeftControl))
+        if (dragging)
         {
             isMoving = true;
             transform.root.transform.position = Vector3.Lerp(transform.root.transform.position, new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 0) + offset, 0.35f);
         }
+        
+        if (hovered && hoveredTarget == gameObject && Input.GetMouseButton(0) && !Input.GetKey(KeyCode.LeftControl))
+            dragging = true;
 
-        if (Input.GetMouseButton(0) && hovered)
+        if (!Input.GetMouseButton(0))
+        {
+            offset = transform.root.transform.position - new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 0);
+            dragging = false;
+            
+            if(!hovered)
+                hoveredTarget = null;
+        }
+
+        if (hovered)
         {
             if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.D))
             {
-                Instantiate(transform.root.gameObject, transform.root.transform.position + (Vector3.left * 6), Quaternion.identity);
+                ID id = Instantiate(transform.root.gameObject, transform.root.transform.position + (Vector3.right * 4), Quaternion.identity).GetComponent<ID>();
+                id.iD = SaveStack.GenerateID();
             }
         }
 
-        if (hovered && Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0))
             isMoving = false;
     }
 }
