@@ -44,19 +44,19 @@ public class Draggable : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     void Update()
     {
         if (hovered && Input.GetMouseButtonDown(0) && !Input.GetKey(KeyCode.LeftControl))
-            offset = transform.position - new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 0);
+            offset = transform.root.transform.position - new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 0);
 
         if (Input.GetMouseButton(0) && hovered && !Input.GetKey(KeyCode.LeftControl))
         {
             isMoving = true;
-            transform.position = Vector3.Lerp(transform.position, new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 0) + offset, 0.35f);
+            transform.root.transform.position = Vector3.Lerp(transform.root.transform.position, new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 0) + offset, 0.35f);
         }
 
         if (Input.GetMouseButton(0) && hovered)
         {
             if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.D))
             {
-                Instantiate(gameObject, transform.position + (Vector3.left * 6), Quaternion.identity);
+                Instantiate(transform.root.gameObject, transform.root.transform.position + (Vector3.left * 6), Quaternion.identity);
             }
         }
 

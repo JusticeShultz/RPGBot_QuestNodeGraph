@@ -11,20 +11,20 @@ public class DialogueNode : MonoBehaviour
     public Node outputNode2;
     public Node outputNode3;
     public InputField inputText;
+    public InputField inputLinkText;
 
     private void Awake()
     {
-        print("Dialogue node created");
-        SaveStack.savables.Add(this);
+        SaveStack.instance.savables.Add(gameObject);
     }
 
     private void OnDestroy()
     {
-        for(int i = 0; i < SaveStack.savables.Count; i++)
+        for(int i = 0; i < SaveStack.instance.savables.Count; i++)
         {
-            if(SaveStack.savables[i] == this)
+            if(SaveStack.instance.savables[i] == gameObject)
             {
-                SaveStack.savables.Remove(SaveStack.savables[i]);
+                SaveStack.instance.savables.Remove(SaveStack.instance.savables[i]);
             }
         }
     }
