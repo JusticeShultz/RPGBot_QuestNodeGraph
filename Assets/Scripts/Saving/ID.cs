@@ -8,6 +8,10 @@ public class ID : MonoBehaviour
 
     private void Awake()
     {
-        iD = SaveStack.GenerateID();
+        if (SaveStack.instance != null)
+            iD = SaveStack.GenerateID();
+
+        if (MonsterSaveStack.instance != null)
+            iD = MonsterSaveStack.GenerateID();
     }
 }
