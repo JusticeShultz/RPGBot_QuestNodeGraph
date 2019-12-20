@@ -142,6 +142,8 @@ public class MonsterSaveStack : MonoBehaviour
                         d.input_Flavor.text = temp[10];
                         d.input_Icon.text = temp[11];
 
+                        d.downloader.Download();
+
                         ulong parsedID = 0;
                         bool parsed = ulong.TryParse(temp[1], out parsedID);
 

@@ -2158,8 +2158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.163, y: -0.781}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 1.1423, y: -0.781}
+  m_SizeDelta: {x: 106.0403, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2875962692605292099
 CanvasRenderer:
@@ -4046,6 +4046,7 @@ MonoBehaviour:
   input_Tankiness: {fileID: 2875962692164463041}
   input_Flavor: {fileID: 2875962692942262610}
   input_Icon: {fileID: 3687856117469902584}
+  downloader: {fileID: 5359832618312418929}
 --- !u!1 &8436097519638828862
 GameObject:
   m_ObjectHideFlags: 0

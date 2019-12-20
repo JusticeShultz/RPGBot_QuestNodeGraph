@@ -14,6 +14,7 @@ public class Monster : MonoBehaviour
     public InputField input_Tankiness;
     public InputField input_Flavor;
     public InputField input_Icon;
+    public ImageDownloader downloader;
 
     private void Awake()
     {
